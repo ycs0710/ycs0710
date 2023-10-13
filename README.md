@@ -1,9 +1,31 @@
-- 👋 Hi, I’m Chang sun YOO
-- 👀 I’m interested in soccer and movie
-- 🌱 I’m currently learning software
-- 💞️ I’m looking to collaborate on python project
+# 거북이 달아나기 게임 🐢
 
-<!---
-ycs0710/ycs0710 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 설명
+"Turtle Runaway"는 한 거북이 다른 거북이를 일정 시간 내에 잡으려고 하는 간단하고 재미있는 게임입니다. 파이썬의 거북이 그래픽을 사용하여 직관적인 컨트롤과 함께 상호 작용적이고 시각적으로 즐거운 경험을 제공합니다.
+
+## 요구 사항
+- Python 3.x
+- 거북이 그래픽스
+
+## 기능
+- **달아나기 거북이**: 추격자로부터 도망치려고 무작위 방향으로 움직이는 거북이입니다.
+- **추격 거북이**: 달아나기 거북이를 따라가려고 하는 거북이입니다.
+- **타이머**: 60초 동안 진행되는 게임으로, 시간 제한 도전을 만듭니다.
+- **점수**: 거북이 간의 거리를 기반으로 점수가 쌓입니다.
+
+## 게임 플레이
+- _달아나기 거북이_는 무작위 방향으로 움직입니다.
+- _추격 거북이_는 달아나기 거북이를 향해 지능적으로 움직입니다.
+- 추격 거북이가 달아나기 거북이를 잡지 못하면 점수가 증가합니다.
+- 추격 거북이가 달아나기 거북이를 잡거나 시간이 끝나면 게임이 끝납니다.
+
+## 컨트롤
+거북이들은 자동으로 움직이므로 수동 컨트롤은 필요하지 않습니다.
+
+## 설치
+1. Python 및 거북이 그래픽스가 설치되어 있는지 확인합니다.
+2. `turtle_runaway.py`를 다운로드합니다.
+3. 파이썬 인터프리터를 사용하여 스크립트를 실행합니다.
+
+```bash
+python turtle_runaway.py
